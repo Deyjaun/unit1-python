@@ -30,24 +30,24 @@ Task 5: Append Multiple Elements to a List
 Append multiple elements to the end of the list. Print 
 the updated list.
 """
-Movies.append("Dora")
-Movies.append("Freddy")
-print(Movies)
+Movies.append("Dora")#append to add items to my list
+Movies.append("Freddy")#append to add items to my list
+print(Movies)#prints updated list
 """
 Task 6: Delete Element at a Specific Index
 Delete an element at a specific index. Print the updated 
 list.
 """
-Movies.remove("Mario")
-Movies.remove("Elvis")
-print(Movies)
+Movies.remove("Mario")#uses remove to delete items off the list
+Movies.remove("Elvis")#uses revmove to delete items off the list
+print(Movies)#prints updated list
 """
 Task 7: Subsetting lists
 Create a new variable equal to the first 2 items of your list
 Then print out the new variable
 """
-Shows = [Movies[0:2]]
-print(Shows)
+Shows = [Movies[0:2]]# uses the new variable to print the first two items
+print(Shows)#prints the two items on my list
 """
 Task 8: Extend a List
 Extend the list with the elements of another list. Print 
