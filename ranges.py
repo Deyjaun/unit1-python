@@ -24,10 +24,10 @@ Exercise 4:
 Write a program to calculate the sum of all numbers from 1 to 10 using a for loop.
 """
 print("______________________")
-sum = 0
-for z in range (1,11):
-    sum+=z
-print(sum)
+sum = 0 #sets sum = 0
+for z in range (1,11):#Prints from 1-10
+    sum+=z #adds to sum
+print(sum) #Prints the sum
 
 """
 Excercise 5:
